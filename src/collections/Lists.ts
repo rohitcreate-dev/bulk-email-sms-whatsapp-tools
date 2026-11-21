@@ -1,0 +1,1 @@
+import type{CollectionConfig}from"payload";export const Lists:CollectionConfig={slug:"lists",admin:{useAsTitle:"name",group:"Audience",defaultColumns:["name","brand","updatedAt"]},fields:[{name:"name",type:"text",required:true},{name:"brand",type:"relationship",relationTo:"brands"},{name:"notes",type:"textarea"}]}
